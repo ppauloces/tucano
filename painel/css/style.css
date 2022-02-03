@@ -258,7 +258,7 @@ body.dark .mode .sun-moon i.moon{
 }
 .toggle-switch .switch{
     position: relative;
-    height: 22px;
+    height: 30px;
     width: 40px;
     border-radius: 25px;
     background-color: var(--toggle-color);
@@ -293,6 +293,7 @@ body.dark .switch::before{
     transition: var(--tran-05);
 }
 .home .text{
+    opacity: 0.5;
     font-size: 30px;
     font-weight: 500;
     color: var(--text-color);

@@ -29,7 +29,7 @@ include __DIR__ . '/../funcoes/sessao.php';
                 </span>
 
                 <div class="text logo-text">
-                    <span class="name">Codinglab</span>
+                    <span class="name"><?php echo $row_usuario['nome_usuario']; ?></span>
                     <span class="profession">Web developer</span>
                 </div>
             </div>
@@ -44,42 +44,28 @@ include __DIR__ . '/../funcoes/sessao.php';
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text">Dashboard</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                            <span class="text nav-text">Revenue</span>
+                            <span class="text nav-text" style="font-size: 15px;">Página Inicial</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Notifications</span>
+                            <span class="text nav-text" style="font-size: 15px;">Notificações</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ></i>
-                            <span class="text nav-text">Analytics</span>
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text" style="font-size: 15px;">Perfil</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-heart icon' ></i>
-                            <span class="text nav-text">Likes</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
-                            <span class="text nav-text">Wallets</span>
+                            <i class='bx bx-cog icon' ></i>
+                            <span class="text nav-text" style="font-size: 15px;">Configurações</span>
                         </a>
                     </li>
 
